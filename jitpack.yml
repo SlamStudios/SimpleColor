@@ -2,4 +2,4 @@ jdk:
   - openjdk25
 
 install:
-  - mvn clean install -DskipTests
+  - ./mvnw clean install -DskipTests
