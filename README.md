@@ -318,6 +318,55 @@ SimpleColor creates a `config.json` file in its data directory:
 
 ## Installation
 
+### Maven
+
+Add the JitPack repository and dependency to your `pom.xml`:
+
+```xml
+<repositories>
+    <repository>
+        <id>jitpack.io</id>
+        <url>https://jitpack.io</url>
+    </repository>
+</repositories>
+
+<dependencies>
+    <dependency>
+        <groupId>com.github.SlamStudios</groupId>
+        <artifactId>SimpleColor</artifactId>
+        <version>1.0.0</version>
+    </dependency>
+</dependencies>
+```
+
+### Gradle
+
+Add the JitPack repository and dependency to your `build.gradle`:
+
+```groovy
+repositories {
+    maven { url 'https://jitpack.io' }
+}
+
+dependencies {
+    implementation 'com.github.SlamStudios:SimpleColor:1.0.0'
+}
+```
+
+For Kotlin DSL (`build.gradle.kts`):
+
+```kotlin
+repositories {
+    maven("https://jitpack.io")
+}
+
+dependencies {
+    implementation("com.github.SlamStudios:SimpleColor:1.0.0")
+}
+```
+
+### Manual Installation
+
 1. Build the plugin:
    ```bash
    mvn clean package
