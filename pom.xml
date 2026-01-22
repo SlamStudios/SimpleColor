@@ -39,7 +39,7 @@
             <artifactId>Server</artifactId>
             <version>latest</version>
             <scope>system</scope>
-            <systemPath>${project.basedir}/../libs/HytaleServer.jar</systemPath>
+            <systemPath>${project.basedir}/libs/HytaleServer.jar</systemPath>
         </dependency>
         <!-- JSR-305 annotations -->
         <dependency>
@@ -95,6 +95,10 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-javadoc-plugin</artifactId>
                 <version>3.6.3</version>
+                <configuration>
+                    <doclint>none</doclint>
+                    <failOnError>false</failOnError>
+                </configuration>
                 <executions>
                     <execution>
                         <id>attach-javadocs</id>
