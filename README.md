@@ -354,4 +354,4 @@ SimpleColor creates a `config.json` file in its data directory:
 
 ## License
 
-Copyright FlameTale Team. All rights reserved.
+Copyright SlamStudios. All rights reserved.
