@@ -1,0 +1,18 @@
+{
+  "Group": "SlamStudios",
+  "Name": "SimpleColor",
+  "Version": "1.0.0",
+  "Description": "Core systems for the flametale network",
+  "Main": "org.slamstudios.simplecolor.SimpleColor",
+  "Authors": [
+    {
+      "Name": "DevilNamedSlam",
+      "Email": "devilnamedslam@gmail.com",
+      "Url": "https://slamstudios.org"
+    }
+  ],
+  "Website": "https://slamstudios.org/simplecolor",
+  "ServerVersion": ">=0.0.1",
+  "DisabledByDefault": false,
+  "IncludesAssetPack": false
+}

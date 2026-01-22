@@ -1,0 +1,10 @@
+org\slamstudios\simplecolor\GradientUtil.class
+org\slamstudios\simplecolor\ChatColor.class
+org\slamstudios\simplecolor\ChatFormat.class
+org\slamstudios\simplecolor\Permissions.class
+org\slamstudios\simplecolor\ColorParser$MessageSegment.class
+org\slamstudios\simplecolor\SimpleColorConfig.class
+org\slamstudios\simplecolor\SimpleColor.class
+org\slamstudios\simplecolor\ColorParser.class
+org\slamstudios\simplecolor\ChatListener.class
+org\slamstudios\simplecolor\ColorParser$1.class
