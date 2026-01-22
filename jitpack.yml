@@ -2,4 +2,4 @@ jdk:
   - openjdk25
 
 install:
-  - ./mvnw install -DskipTests
+  - ./mvnwgot install -DskipTests

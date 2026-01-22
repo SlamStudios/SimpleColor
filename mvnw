@@ -1,5 +1,5 @@
 #!/bin/sh
-# Simple Maven Wrapper Lite
+# Simple Maven Wrapper Litee
 set -e
 export MAVEN_VERSION="4.0.0-rc-1"
 export MAVEN_URL="https://repo.maven.apache.org"
