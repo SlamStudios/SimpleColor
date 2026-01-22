@@ -11,7 +11,7 @@ import java.nio.file.Path;
 import java.util.logging.Level;
 
 /**
- * SimpleColor - Chat color library for FlameTale Hytale server network.
+ * SimpleColor - Chat color library for Hytale.
  *
  * Provides Spigot/Minecraft-style chat color codes with support for:
  * - Legacy color codes (&0-9, &a-f)
