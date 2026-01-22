@@ -2,5 +2,4 @@ jdk:
   - openjdk25
 
 install:
-  - mvn wrapper:wrapper -Dmaven=3.9.6
-  - ./mvnw install -DskipTests
+  - mvn install -DskipTests
