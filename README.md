@@ -65,9 +65,9 @@ For complete documentation, see the **[Wiki](../../wiki)**:
 
 <dependencies>
     <dependency>
-        <groupId>com.github.SlamStudios</groupId>
+        <groupId>org.slamstudios</groupId>
         <artifactId>SimpleColor</artifactId>
-        <version>1.0.0</version>
+        <version>[version]</version>
     </dependency>
 </dependencies>
 ```
@@ -80,7 +80,7 @@ repositories {
 }
 
 dependencies {
-    implementation 'com.github.SlamStudios:SimpleColor:1.0.0'
+    implementation 'org.slamstudios:SimpleColor:[version]'
 }
 ```
 
