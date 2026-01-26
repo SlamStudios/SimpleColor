@@ -2,6 +2,8 @@ package org.slamstudios.simplecolor;
 
 import com.hypixel.hytale.server.core.entity.entities.Player;
 import com.hypixel.hytale.server.core.Message;
+import org.slamstudios.simplecolor.enums.ChatColor;
+import org.slamstudios.simplecolor.enums.ChatFormat;
 
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;

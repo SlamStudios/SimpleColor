@@ -1,13 +1,16 @@
-package org.slamstudios.simplecolor;
+package org.slamstudios.simplecolor.listeners;
 
 import com.hypixel.hytale.server.core.Message;
 import com.hypixel.hytale.server.core.event.events.player.PlayerChatEvent;
 import com.hypixel.hytale.server.core.universe.PlayerRef;
+import org.slamstudios.simplecolor.ColorParser;
+import org.slamstudios.simplecolor.SimpleColorConfig;
+import org.slamstudios.simplecolor.aliases.Color;
 
 public class ChatListener {
 
     public static void onPlayerChat(PlayerChatEvent event) {
-        SimpleColorConfig config = SimpleColor.getConfig();
+        SimpleColorConfig config = Color.getConfig();
 
         // If chat parsing is disabled, don't modify the event
         if (!config.isChatParsingEnabled()) {

@@ -1,4 +1,6 @@
-package org.slamstudios.simplecolor;
+package org.slamstudios.simplecolor.enums;
+
+import org.slamstudios.simplecolor.Permissions;
 
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;

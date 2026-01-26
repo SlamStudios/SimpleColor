@@ -6,11 +6,11 @@
 
     <groupId>org.slamstudios</groupId>
     <artifactId>SimpleColor</artifactId>
-    <version>2026-01-22-v1.0.0</version>
+    <version>2026-01-26-v1.1.0</version>
     <packaging>jar</packaging>
 
     <name>SimpleColor</name>
-    <description>Chat color library for FlameTale Hytale server network</description>
+    <description>Chat color utilitiy for easy chat coloring and formatting with easy API usage.</description>
     <url>https://github.com/SlamStudios/SimpleColor</url>
 
     <licenses>

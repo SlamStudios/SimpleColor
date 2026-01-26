@@ -5,13 +5,14 @@ import com.hypixel.hytale.server.core.entity.entities.Player;
 import com.hypixel.hytale.server.core.event.events.player.PlayerChatEvent;
 import com.hypixel.hytale.server.core.plugin.JavaPlugin;
 import com.hypixel.hytale.server.core.plugin.JavaPluginInit;
+import org.slamstudios.simplecolor.listeners.ChatListener;
 
 import javax.annotation.Nonnull;
 import java.nio.file.Path;
 import java.util.logging.Level;
 
 /**
- * SimpleColor - Chat color library for Hytale.
+ * SimpleColor Plugin - Chat color library for Hytale.
  *
  * Provides Spigot/Minecraft-style chat color codes with support for:
  * - Legacy color codes (&0-9, &a-f)
@@ -24,12 +25,12 @@ import java.util.logging.Level;
  * Permissions:
  * - simplecolor.bypass - Bypass all permission checks
  * - simplecolor.color.* - All colors
- * - simplecolor.color.<name> - Individual color (black, red, etc.)
+ * - simplecolor.color.<n> - Individual color (black, red, etc.)
  * - simplecolor.color.hex - Hex colors
  * - simplecolor.color.gradient - Gradient colors
  * - simplecolor.color.rainbow - Rainbow gradient
  * - simplecolor.format.* - All formats
- * - simplecolor.format.<name> - Individual format (bold, italic, etc.)
+ * - simplecolor.format.<n> - Individual format (bold, italic, etc.)
  * - simplecolor.link - Clickable links
  */
 public class SimpleColor extends JavaPlugin {
