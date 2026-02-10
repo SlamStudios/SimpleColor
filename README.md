@@ -65,7 +65,7 @@ For complete documentation, see the **[Wiki](../../wiki)**:
 
 <dependencies>
     <dependency>
-        <groupId>org.slamstudios</groupId>
+        <groupId>com.github.SlamStudios</groupId>
         <artifactId>SimpleColor</artifactId>
         <version>[version]</version>
     </dependency>
